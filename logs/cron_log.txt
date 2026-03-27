@@ -1,0 +1,12 @@
+[2025-10-02 21:23:52] Cron script started
+[2025-10-02 21:23:52] No campaigns to send.
+[2025-10-02 21:23:52] Cron script finished
+[2025-10-02 21:23:55] Cron script started
+[2025-10-02 21:23:55] No campaigns to send.
+[2025-10-02 21:23:55] Cron script finished
+[2025-10-02 21:25:02] Cron script started
+[2025-10-02 21:25:02] No campaigns to send.
+[2025-10-02 21:25:02] Cron script finished
+[2025-10-02 21:25:47] Cron script started
+[2025-10-02 21:25:47] No campaigns to send.
+[2025-10-02 21:25:47] Cron script finished

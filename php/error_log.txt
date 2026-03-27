@@ -1,0 +1,10 @@
+[15-Sep-2025 05:44:00 Europe/Berlin] Segment 'Professionals' -> Found 0 customers for campaign 'TESTING TARGET SEGMENTATION'.
+[15-Sep-2025 05:48:06 Europe/Berlin] Segment 'Professionals' -> Found 0 customers for campaign 'TESTING TARGET SEGMENT'.
+[15-Sep-2025 05:52:39 Europe/Berlin] Segment 'Professionals' -> Found 0 customers for campaign 'TEST TARGET SEGMENT IF MY SELECTING IN SEGMENT IS WORKING'.
+[15-Sep-2025 05:56:01 Europe/Berlin] Segment 'Professionals' -> Found 1 customers for campaign 'TESTING TARGET SEGMENTATION'.
+[15-Sep-2025 05:57:06 Europe/Berlin] Segment 'Students' -> Found 1 customers for campaign 'TESTING CAMPAIGN'.
+[15-Sep-2025 07:16:18 Europe/Berlin] Segment 'All' -> Found 3 customers for campaign 'TEST RANDOM'.
+[15-Sep-2025 07:30:19 Europe/Berlin] Segment 'Students' -> Found 1 customers for campaign 'TEST AGAIN'.
+[15-Sep-2025 07:33:34 Europe/Berlin] Segment 'Students' -> Found 2 customers for campaign 'TEST SECOND ACCOUNT'.
+[15-Sep-2025 07:44:30 Europe/Berlin] Campaign 'CAMPAIGN TEXT' for 'Business Name' -> Found 1 customers.
+[15-Sep-2025 07:45:48 Europe/Berlin] Campaign 'testesttest' for 'Tata Tea's Coffee Shop' -> Found 1 customers.

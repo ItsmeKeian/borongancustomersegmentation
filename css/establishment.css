@@ -1,0 +1,254 @@
+:root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+        }
+
+
+
+
+
+
+
+        
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar {
+            background-color: var(--secondary-color) !important;
+        }
+        
+        .sidebar {
+            background-color: var(--dark-color);
+            min-height: calc(100vh - 56px);
+            padding-top: 1rem;
+        }
+        
+        .sidebar .nav-link {
+            color: #fff;
+            padding: 0.8rem 1rem;
+            margin: 0.2rem 0;
+            border-radius: 0.25rem;
+        }
+        
+        .sidebar .nav-link:hover, 
+        .sidebar .nav-link.active {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 1.5rem;
+            transition: transform 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-card i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        
+        .stat-card .number {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .stat-card .label {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        
+        .dashboard-section {
+            display: none;
+        }
+        
+        .dashboard-section.active {
+            display: block;
+        }
+        
+        .card {
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+            margin-bottom: 1.5rem;
+            border: none;
+            border-radius: 0.35rem;
+        }
+        
+        .card-header {
+            background-color: #f8f9fc;
+            border-bottom: 1px solid #e3e6f0;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 300px;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .settings-card {
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .settings-card:hover {
+            background-color: #f8f9fc;
+        }
+        
+        .settings-icon {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+        
+        .report-card {
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .report-card.warning {
+            border-left-color: #f39c12;
+        }
+        
+        .report-card.danger {
+            border-left-color: #e74c3c;
+        }
+        
+        .report-card.success {
+            border-left-color: #2ecc71;
+        }
+        
+        .badge {
+            font-weight: 500;
+            padding: 0.35em 0.65em;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        
+         /* On smaller screens, make chart shorter */
+        @media (max-width: 768px) {
+        .chart-container {
+            height: 250px;
+        }
+        }
+
+
+
+
+        .small-alert {
+    width: 320px !important;
+    border-radius: 12px !important;
+}
+
+.small-title {
+    font-size: 18px !important;
+}
+
+.small-content {
+    font-size: 14px !important;
+}
+
+.small-actions button {
+    padding: 5px 14px !important;
+    border-radius: 6px !important;
+}
+
+
+
+/* ============================
+   DARK MODE STYLES
+============================ */
+.dark-mode {
+    --primary-color: #4dabf7;
+    --secondary-color: #1e1e2f;
+    --accent-color: #ff6b6b;
+    --light-color: #2d2d3f;
+    --dark-color: #14141f;
+
+    background-color: #1a1a27 !important;
+    color: #e5e5e5 !important;
+}
+
+/* NAVBAR */
+.dark-mode .navbar {
+    background-color: #10101a !important;
+}
+
+/* SIDEBAR */
+.dark-mode .sidebar {
+    background-color: #14141f !important;
+}
+
+.dark-mode .sidebar .nav-link {
+    color: #ddd !important;
+}
+
+.dark-mode .sidebar .nav-link:hover,
+.dark-mode .sidebar .nav-link.active {
+    background-color: rgba(255,255,255,0.15) !important;
+}
+
+/* CARDS */
+.dark-mode .card {
+    background-color: #232335 !important;
+    color: #e5e5e5 !important;
+    border: 1px solid #333 !important;
+}
+
+.dark-mode .card-header {
+    background-color: #1d1d2b !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+/* STAT CARDS */
+.dark-mode .stat-card .label {
+    color: #ccc !important;
+}
+
+/* MAIN CONTENT BG */
+.dark-mode .main-content {
+    background-color: #1a1a27 !important;
+}
+
+/* CHART TOOLTIP FIX (Chart.js) */
+.dark-mode .chartjs-tooltip {
+    background: #2b2b3a !important;
+    color: white !important;
+}
+
+/* MODALS */
+.dark-mode .modal-content {
+    background-color: #28293d !important;
+    color: #fff !important;
+}
+
+.dark-mode .dropdown-menu {
+    background-color: #29293a !important;
+    color: #fff !important;
+}
+
+.dark-mode .dropdown-item {
+    color: #eee !important;
+}
+
+.dark-mode .dropdown-item:hover {
+    background-color: #3a3a50 !important;
+}

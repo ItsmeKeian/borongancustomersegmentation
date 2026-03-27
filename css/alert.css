@@ -1,0 +1,22 @@
+         /* Custom style for smaller SweetAlert */
+            .swal2-popup {
+                width: 400px !important; /* Adjust the width */
+                height: 300px !important;
+                font-size: 14px !important; /* Adjust the font size */
+                padding: 5px !important; /* Adjust padding */
+            }
+
+            .swal2-title {
+                font-size: 18px !important; /* Adjust title font size */
+            }
+
+            .swal2-content {
+                font-size: 14px !important; /* Adjust content font size */
+            }
+
+            .swal2-actions {
+                font-size: 14px !important; /* Adjust button font size */
+            }
+
+
+            
